@@ -9,6 +9,10 @@ MNIST digit recognition.ipynb: this notebook contains the previous models (Linea
 
 Test CNNs trained on MNIST.ipynb: this code displays the activations of the neurons in each layer for a given input image. The code is based on Gabriel Pierobon's tutorial: https://github.com/gabrielpierobon/cnnshapes.
 
+cnn_model_1.h5: model weights for the CNN 
+
+cnn_model_augm.h5: model weights for the CNN after data augmentation
+
 ## Scoring:
 Cross-validation accuracy (without any image augmentation and hyperparameter tuning):
 
